@@ -1,0 +1,34 @@
+div {
+
+}
+
+.red {
+  background-color: red;
+}
+
+#game {
+  width: 450px;
+}
+
+.tile {
+  height: 80px;
+  margin: 10px;
+  width: 60px;
+  display: inline-block;
+  background-color: red;
+  color: red;
+  text-align: center;
+  vertical-align: center;
+}
+.open {
+  background-color: white;
+}
+
+.solved {
+  background-color: green;
+  color: white;
+}
+
+#timer:after {
+  content: ' seconds';
+}
